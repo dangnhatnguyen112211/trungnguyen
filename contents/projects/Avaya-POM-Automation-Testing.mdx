@@ -1,0 +1,98 @@
+---
+title: 'Avaya POM Automation Testing'
+description: 'Automation testing for Avaya Proactive Outreach Manager using Java, Selenium, TestNG, and Cucumber.'
+date: '2024-11-10'
+tags: ['Automation', 'Selenium', 'Java', 'Cucumber', 'TestNG', 'Avaya', 'POM']
+---
+
+import Image from 'next/image';
+
+# 🧪 Avaya POM Automation Testing
+
+**Role:** QA Automation Engineer  
+**Tech:** Java • Selenium WebDriver • TestNG • Cucumber (BDD) • Maven • Jenkins  
+**Domain:** Contact Center / Outbound Campaign Automation
+
+---
+
+## 📝 Overview
+
+Avaya Proactive Outreach Manager (POM) is an outbound automation system used to make auto-dial calls, send SMS, and email to customers.  
+In this project, I built a full automation testing framework to:
+
+- Test the POM Manager web interface
+- Automate the creation and execution of outbound campaigns
+- Test Contact Strategy flows and retry rules
+- Validate dashboard & real-time campaign monitoring
+- Verify dialer modes, call results, and integration with Avaya AEP
+
+This automation suite reduced manual testing effort by **70%** and improved stability for large-scale outbound campaigns.
+
+---
+
+## ⚙️ Tech Stack
+
+| Component     | Tool                   |
+| ------------- | ---------------------- |
+| Language      | Java 17                |
+| UI Automation | Selenium WebDriver     |
+| Test Runner   | TestNG                 |
+| BDD           | Cucumber               |
+| Build Tool    | Maven                  |
+| CI/CD         | Jenkins                |
+| Reporting     | Extent Report / Allure |
+
+---
+
+## 🎯 Automation Scope
+
+### **1. Login & Permission Testing**
+
+- Validate login using Admin, Supervisor, and Campaign Manager roles
+- Permission-based UI and feature access
+
+### **2. Outbound Campaign Automation**
+
+- Create outbound campaigns automatically
+- Upload customer phone list
+- Set dialer modes (Predictive, Preview, Progressive)
+- Validate retry logic, call results, and status transitions
+- Start / Pause / Stop campaigns through automation
+
+### **3. Contact Strategy Testing**
+
+- Validate workflow for retry attempts
+- Validate the waiting interval between retries
+- Multi-channel flow testing (Call → SMS → Email)
+
+### **4. Dashboard & Monitoring**
+
+- Validate call counts and progress
+- Monitor agent state
+- Validate KPI metrics in real-time
+
+### **5. Reporting Module**
+
+- Download and validate POM reports
+- Validate call disposition accuracy
+- Match campaign results with report data
+
+---
+
+## 📚 BDD Scenarios (Sample)
+
+```gherkin
+Feature: Create outbound campaign
+  As an admin user
+  I want to create an outbound campaign
+  So that the system can start dialing automatically
+
+  Scenario: Successfully create a new campaign
+    Given I login to POM Manager as "admin"
+    When I navigate to "Campaign Management"
+    And I create a new outbound campaign with name "AutoCampaign01"
+    And I upload customer list "customer-data.csv"
+    Then the campaign "AutoCampaign01" should appear in campaign list
+```
+
+

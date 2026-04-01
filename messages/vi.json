@@ -1,0 +1,208 @@
+{
+  "HomePage": {
+    "intro": "Xin chào, tôi là Nguyen Thanh Trung",
+    "location": "Quảng Trị, Việt Nam",
+    "location_type": "Làm việc trực tiếp (Onsite)",
+    "resume": "Một Fullstack Developer đam mê biến những ý tưởng thành các trải nghiệm số đẹp mắt, đa tính năng và mang lại hiệu suất cao. Tôi yêu thích việc tạo ra các giao diện người dùng mượt mà và trực quan. Lập trình viên Frontend kiêm Automation Tester giàu kinh nghiệm và đam mê, chuyên xây dựng và kiểm thử các giải pháp số có khả năng mở rộng, ổn định và hiệu suất cao. Ở frontend, tôi sử dụng Angular, Next.js, TypeScript và Tailwind CSS để tạo ra các giao diện hiện đại, phản hồi nhanh và dễ truy cập. Ở vai trò Automation Tester, tôi thiết kế và phát triển các kịch bản kiểm thử tự động, tối ưu quy trình QA và đảm bảo chất lượng phần mềm thông qua kiểm thử chính xác với độ bao phủ cao. Tôi luôn chú trọng sự ổn định, kiến trúc sạch và khả năng mở rộng của ứng dụng.",
+    "skills": {
+      "title": "Kỹ năng",
+      "sub_title": "Những kỹ năng chuyên môn của tôi."
+    },
+    "bento": {
+      "title": "Mục nổi bật",
+      "sub_title": "Khám phá những gì tôi đã xây dựng, đóng góp và đạt được."
+    }
+  },
+  "AboutPage": {
+    "title": "Giới thiệu",
+    "description": "Một vài thông tin ngắn gọn về tôi.",
+    "resume": {
+      "paragraf_1": "Xin chào! Tôi là Nguyen Thanh Trung là một lập trình viên Frontend Developer & Automation Tester đam mê xây dựng các sản phẩm phần mềm chất lượng. Tôi thành thạo các công nghệ frontend hiện đại như Angular, TypeScript, Tailwind CSS và có kinh nghiệm kiểm thử tự động để đảm bảo ứng dụng ổn định, hiệu quả. Tôi luôn hướng tới các giải pháp vừa thân thiện với người dùng, vừa hiệu năng cao, từ thiết kế giao diện trực quan đến kiểm thử và tối ưu quy trình phát triển. Tôi học nhanh, thích nghi tốt, và thích giải quyết các vấn đề phức tạp trong môi trường hợp tác. Với tôi, giao tiếp hiệu quả và tinh thần đồng đội là chìa khóa dẫn đến thành công. Tôi luôn hứng thú làm việc nhóm, học hỏi từ mọi người và đóng góp vào các dự án có giá trị.",
+      "paragraf_2": "Tôi thích tạo ra những giải pháp vừa thân thiện với người dùng, vừa có hiệu năng cao. Dù là xây dựng giao diện trực quan hay thiết kế kiến trúc backend, tôi luôn hướng đến sự hiệu quả và rõ ràng trong mọi tầng của ứng dụng. Tôi là người học nhanh, thích nghi tốt và yêu thích giải quyết các vấn đề phức tạp một cách hợp tác.",
+      "paragraf_3": "Tôi tin rằng giao tiếp tốt và tinh thần đồng đội là chìa khóa dẫn đến thành công trong phát triển phần mềm. Những trải nghiệm của tôi giúp tôi hoàn thiện kỹ năng kỹ thuật, tư duy phân tích cũng như khả năng lãnh đạo. Tôi luôn hào hứng làm việc nhóm, học hỏi từ mọi người và đóng góp vào những dự án có giá trị.",
+      "paragraf_4": "Trân trọng,"
+    },
+    "career": {
+      "title": "Sự nghiệp",
+      "sub_title": "Hành trình nghề nghiệp của tôi."
+    },
+    "education": {
+      "title": "Học vấn",
+      "sub_title": "Quá trình học tập của tôi."
+    },
+    "resume_download_button": "Tải Resume",
+    "portfolio_download_button": "Tải Portfolio"
+  },
+  "AchievementsPage": {
+    "title": "Thành tựu",
+    "description": "Tổng hợp các chứng chỉ và huy hiệu tôi đã đạt được trong quá trình học tập và làm việc.",
+    "error": "Đã xảy ra lỗi từ máy chủ.",
+    "no_data": "Không có dữ liệu.",
+    "show_credential": "Xem chứng chỉ"
+  },
+  "ProjectsPage": {
+    "title": "Dự án",
+    "description": "Nơi trưng bày các dự án cá nhân và mã nguồn mở mà tôi đã xây dựng hoặc đóng góp.",
+    "view_project": "Xem dự án",
+    "tech_stack": "Công nghệ sử dụng",
+    "back_button": "Quay lại",
+    "source_code_text": "Mã nguồn",
+    "live_demo_text": "Demo trực tiếp",
+    "error": "Đã xảy ra lỗi từ máy chủ.",
+    "no_data": "Không có dữ liệu."
+  },
+  "DashboardPage": {
+    "title": "Bảng thống kê",
+    "description": "Bảng điều khiển cá nhân được xây dựng bằng API Next.js, hiển thị các thống kê và dữ liệu đóng góp theo thời gian thực.",
+    "error": "Đã xảy ra lỗi từ máy chủ.",
+    "umami": {
+      "title": "Umami",
+      "sub_title": "Theo dõi lượng truy cập và tương tác theo thời gian thực từ trang portfolio.",
+      "overview": {
+        "page_views": "Lượt xem trang",
+        "visitors": "Khách truy cập",
+        "visits": "Lượt truy cập",
+        "countries": "Quốc gia",
+        "events": "Sự kiện"
+      },
+      "chart": {
+        "title": "Xu hướng truy cập",
+        "sessions": "Phiên truy cập",
+        "page_views": "Lượt xem trang"
+      },
+      "filter_placeholder": "Lọc theo tên miền...",
+      "geographic_distribution": "Phân bố địa lý",
+      "visitor_traffic_by_country": "Lưu lượng truy cập theo quốc gia"
+    },
+    "github": {
+      "title": "Đóng góp GitHub",
+      "sub_title": "Hoạt động GitHub của tôi trong năm qua.",
+      "title_total_contribution": "Tổng",
+      "title_total_this_week_contributino": "Tuần này",
+      "title_best_contribution": "Tốt nhất",
+      "title_average_contribution": "Trung bình",
+      "title_less_contribution": "Ít",
+      "title_more_contribution": "Nhiều",
+      "unit": "ngày"
+    },
+    "wakatime": {
+      "title": "Thống kê WakaTime",
+      "sub_title": "Thời gian lập trình trong 7 ngày gần nhất.",
+      "last_update": "Cập nhật lần cuối",
+      "start_date": "Ngày bắt đầu",
+      "end_date": "Ngày kết thúc",
+      "daily_average": "Thời gian trung bình mỗi ngày",
+      "total_this_week": "Tổng thời gian tuần này",
+      "best_day": "Ngày tốt nhất",
+      "all_time_since_joined": "Tổng thời gian từ khi tham gia",
+      "languages": "Ngôn ngữ sử dụng"
+    },
+    "codewars": {
+      "title": "Tiến độ Codewars",
+      "sub_title": "Các chỉ số hiệu suất từ thử thách Codewars.",
+      "title_rank": "Xếp hạng",
+      "title_honor": "Điểm Honor",
+      "title_completed": "Thử thách đã hoàn thành",
+      "title_leaderboard": "Bảng xếp hạng toàn cầu",
+      "title_clan": "Clan",
+      "title_skills": "Kỹ năng liên quan"
+    },
+    "monkeytype": {
+      "title": "Thống kê Monkeytype",
+      "sub_title": "Tốc độ đánh máy và hiệu suất.",
+      "joined": "Tham gia",
+      "current_streak": "Chuỗi hiện tại",
+      "unit_days": "ngày",
+      "title_test_started": "Bài kiểm tra đã bắt đầu",
+      "title_test_completed": "Bài kiểm tra đã hoàn thành",
+      "title_time_typing": "Tổng thời gian đánh máy",
+      "title_leaderboard": "Bảng xếp hạng tiếng Anh mọi thời đại",
+      "unit_seconds": "giây",
+      "unit_time": "thời gian",
+      "unit_words": "từ",
+      "top": "top",
+      "days_ago": "ngày trước",
+      "xp_until_next_level": "XP đến cấp tiếp theo",
+      "total_xp": "Tổng XP"
+    }
+  },
+  "ChatRoomPage": {
+    "title": "Phòng trò chuyện",
+    "description": "Hãy chia sẻ câu hỏi, ý kiến, góp ý hoặc bất kỳ điều gì bạn muốn!",
+    "placeholder": "Nhập tin nhắn...",
+    "sign_in": {
+      "title": "Vui lòng đăng nhập để tham gia cuộc trò chuyện. Đừng lo, dữ liệu của bạn luôn được bảo mật.",
+      "label": "Đăng nhập bằng",
+      "signed_label": "Đang đăng nhập dưới tên",
+      "sign_out_label": "Đăng xuất"
+    },
+    "widget": {
+      "title": "Phòng trò chuyện",
+      "tooltip_title": "Mở phòng chat",
+      "tooltip_minimize": "Thu nhỏ",
+      "tooltip_signout": "Đăng xuất"
+    }
+  },
+  "ContactPage": {
+    "title": "Liên hệ",
+    "description": "Kết nối với tôi",
+    "social_media": {
+      "title": "Tìm tôi trên mạng xã hội",
+      "gmail": {
+        "title": "Giữ liên lạc",
+        "description": "Hãy gửi email nếu bạn có câu hỏi hoặc muốn hợp tác."
+      },
+      "instagram": {
+        "title": "Theo dõi hành trình của tôi",
+        "description": "Khám phá những khoảnh khắc hằng ngày của tôi."
+      },
+      "linkedin": {
+        "title": "Kết nối chuyên nghiệp",
+        "description": "Kết nối với tôi trên LinkedIn."
+      },
+      "tiktok": {
+        "title": "Cùng giải trí",
+        "description": "Xem những nội dung vui nhộn."
+      },
+      "github": {
+        "title": "Khám phá mã nguồn",
+        "description": "Xem các dự án mã nguồn mở của tôi."
+      }
+    },
+    "form": {
+      "title": "Hoặc gửi tin nhắn cho tôi",
+      "input_name": "Họ và tên",
+      "input_email": "Email",
+      "input_message": "Nội dung",
+      "button": "Gửi Email"
+    }
+  },
+  "SmartTalkPage": {
+    "title": "Smart Talk",
+    "description": "Không gian trò chuyện AI tự nhiên và thông minh."
+  },
+  "Footer": {
+    "hire": "Tuyển tôi.",
+    "copyright_1": "BẢN QUYỀN © ",
+    "copyright_2": "Nguyen Thanh Trung. Mọi quyền được bảo lưu."
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "id": "🇮🇩",
+    "label": "Ngôn ngữ"
+  },
+  "Navigation": {
+    "Home": "Trang chủ",
+    "About": "Giới thiệu",
+    "Achievements": "Thành tựu",
+    "Projects": "Dự án",
+    "Dashboard": "Thống kê",
+    "Chat Room": "Phòng chat",
+    "Contact": "Liên hệ",
+    "Smart Talk": "Smart Talk"
+  },
+  "NotFoundPage": {
+    "title": "Không tìm thấy trang",
+    "button": "Quay về trang chủ"
+  }
+}
