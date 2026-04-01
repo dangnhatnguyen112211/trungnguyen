@@ -1,9 +1,9 @@
-﻿export const METADATA = {
-  creator: "ntrungduong",
+export const METADATA = {
+  creator: "nttrung",
   description: "Experienced Frontend Developer specializing in Angular, React, Next.js, TypeScript, and Automation Testing.",
   keyword: [
     'Nguyen Thanh Trung',
-    'ntrungduong',
+    'nttrung',
     'Frontend Developer',
     'React Developer',
     'Next.js Developer',
@@ -11,19 +11,19 @@
     'Web Developer Vietnam',
     'Portfolio',
     'Angular Developer',
-    'ntrungduong developer',
+    'nttrung developer',
   ],
   authors: {
-    name: "ntrungduong",
+    name: "nttrung",
     url: process.env.DOMAIN,
   },
   openGraph: {
     url: process.env.DOMAIN,
-    siteName: "ntrungduong",
+    siteName: "nttrung",
     locale: "vi-VI",
     title: 'Nguyen Thanh Trung | Frontend Developer & Automation Tester',
     description: 'Experienced Frontend Developer specializing in Angular, React, Next.js, TypeScript, and Automation Testing.',
   },
-  exTitle: "| ntrungduong",
+  exTitle: "| nttrung",
   profile: "/images/ntrungduong-7.png",
 };
