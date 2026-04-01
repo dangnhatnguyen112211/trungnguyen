@@ -3,5 +3,5 @@ export const MONKEYTYPE_ACCOUNT = {
   api_key: process.env.MONKEYTYPE_API_KEY,
   endpoint: "/api/monkeytype",
   monkeytype_url: "https://monkeytype.com/profile/ntrungduong",
-  is_active: true,
+  is_active: false,
 };
