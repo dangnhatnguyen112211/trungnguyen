@@ -26,5 +26,5 @@ export const METADATA = {
     description: 'Experienced Fullstack Developer specializing in Angular, React, Next.js, TypeScript, and Automation Testing.',
   },
   exTitle: "| nttrung",
-  profile: "/images/ntrungduong-7.png",
+  profile: "/images/nttrung-avatar.jpg",
 };

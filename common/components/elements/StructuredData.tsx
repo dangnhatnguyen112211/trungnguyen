@@ -1,12 +1,12 @@
-﻿export default function StructuredData() {
+export default function StructuredData() {
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'Nguyễn Trung Dương',
-    alternateName: 'ntrungduong',
+    name: 'Nguyễn Thành Trung',
+    alternateName: 'nttrung',
     url: process.env.DOMAIN,
-    image: `${process.env.DOMAIN}/images/ntrungduong-7.png`,
-    jobTitle: 'Frontend Developer & Automation Tester',
+    image: `${process.env.DOMAIN}/images/nttrung-avatar.jpg`,
+    jobTitle: 'Fullstack Developer & Automation Tester',
     sameAs: [
       'https://github.com/Trungduong2111',
       'https://www.linkedin.com/in/ntrungduong',
@@ -42,7 +42,7 @@
     name: 'Nguyen Thanh Trung Portfolio',
     url: process.env.DOMAIN,
     description:
-      'Personal website, portfolio, and blog of Nguyễn Trung Dương - Frontend Developer & Automation Tester specializing in Angular, React, Next.js, Selenium and TypeScript',
+      'Personal website, portfolio, and blog of Nguyễn Thành Trung - Fullstack Developer & Automation Tester specializing in Angular, React, Next.js, Selenium and TypeScript',
     author: {
       '@type': 'Person',
       name: 'Nguyen Thanh Trung',
