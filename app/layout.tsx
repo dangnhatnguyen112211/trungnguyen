@@ -1,4 +1,4 @@
-﻿import NextTopLoader from 'nextjs-toploader';
+import NextTopLoader from 'nextjs-toploader';
 import Script from 'next/script';
 import { getServerSession } from 'next-auth';
 import { Analytics } from '@vercel/analytics/react';
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   ),
 
   title: {
-    default: 'Nguyen Thanh Trung | Frontend Developer & Automation Tester | Personal Website',
-    template: '%s | Nguyen Thanh Trung',
+    default: 'Nguyễn Thành Trung | Fullstack Developer & Automation Tester | Personal Website',
+    template: '%s | Nguyễn Thành Trung',
   },
 
   description: METADATA.description,
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: 'Nguyễn Trung Dương | Frontend Developer & Automation Tester | Personal Website',
+    title: 'Nguyễn Thành Trung | Fullstack Developer & Automation Tester | Personal Website',
     description: METADATA.description,
     images: METADATA.profile,
     url: METADATA.openGraph.url,
