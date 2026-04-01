@@ -10,6 +10,17 @@
     radial-gradient(ellipse 15% 15% at 60% -10%, rgba(254, 240, 138, 80%) 0%, rgb(8 0 0 / 0%)) no-repeat;
 } */
 
+.dark body {
+  background-image: url('/images/digital-brain.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Nếu ảnh quá sáng, dùng thêm thuộc tính dưới đây để làm nền tối lại đôi chút */
+  background-color: rgba(18, 18, 18, 0.85);
+  background-blend-mode: overlay;
+}
+
 ::-webkit-scrollbar {
   @apply w-1;
 }
