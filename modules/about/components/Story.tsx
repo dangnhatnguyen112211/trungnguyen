@@ -13,12 +13,9 @@ const Story = () => {
           {t(`resume.paragraf_${paragraph.index}`)}
         </div>
       ))}
-      <Image
-        src="/images/signature.png"
-        alt="signature"
-        width={100}
-        height={100}
-      />
+      <div className="mt-4 text-4xl font-semibold text-blue-500" style={{ fontFamily: 'cursive' }}>
+        TRUNG
+      </div>
     </section>
   );
 };
