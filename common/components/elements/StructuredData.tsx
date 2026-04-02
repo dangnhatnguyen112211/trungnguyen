@@ -8,8 +8,8 @@ export default function StructuredData() {
     image: `${process.env.DOMAIN}/images/nttrung-avatar.jpg`,
     jobTitle: 'Fullstack Developer & Automation Tester',
     sameAs: [
-      'https://github.com/Trungduong2111',
-      'https://www.linkedin.com/in/ntrungduong',
+      'https://youtube.com',
+      'https://youtube.com',
       // Thêm social media links
     ],
     knowsAbout: [
