@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import useSWR from "swr";
 import { BsGithub as GithubIcon } from "react-icons/bs";
 import { useTranslations } from "next-intl";
@@ -24,7 +23,7 @@ const Contributions = ({ endpoint }: ContributionsProps) => {
   const contributionCalendar =
     data?.contributionsCollection?.contributionCalendar;
 
-  const { github_url, is_active } = GITHUB_ACCOUNTS;
+  const { is_active } = GITHUB_ACCOUNTS;
 
   const t = useTranslations("DashboardPage");
 
@@ -35,13 +34,6 @@ const Contributions = ({ endpoint }: ContributionsProps) => {
       <SectionHeading title={t("github.title")} icon={<GithubIcon />} />
       <SectionSubHeading>
         <p>{t("github.sub_title")}</p>
-        <Link
-          href={github_url}
-          target="_blank"
-          className="text-sm text-neutral-600 hover:text-neutral-900 dark:text-neutral-500 dark:hover:text-neutral-400"
-        >
-          @{GITHUB_ACCOUNTS.username}
-        </Link>
       </SectionSubHeading>
 
       {error ? (
