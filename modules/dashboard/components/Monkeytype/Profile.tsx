@@ -87,7 +87,7 @@ const Profile = ({ data }: ProfileProps) => {
         <div className="flex gap-x-4">
           <div className="flex items-center">
             <Image
-              src={'/images/nttrung-avatar.jpg'}
+              src={'/images/nttrung-avatar.png'}
               width={80}
               height={80}
               alt="nttrung"
