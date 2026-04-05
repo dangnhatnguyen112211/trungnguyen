@@ -8,7 +8,6 @@ import { useSearchParams } from 'next/navigation';
 import UmamiSkeleton from './UmamiSkeleton';
 import TrafficTrendsChart from './TrafficTrendsChart';
 import Overview from './Overview';
-import ComboBoxFilter from './ComboBoxFilter';
 
 import SectionHeading from '@/common/components/elements/SectionHeading';
 import SectionSubHeading from '@/common/components/elements/SectionSubHeading';
@@ -46,10 +45,7 @@ const Umami = () => {
     <section className="space-y-2">
       <SectionHeading title={t('umami.title')} icon={<UmamiIcon />} />
       <SectionSubHeading>
-        <div className="flex w-full flex-col gap-2 md:flex-row md:items-center md:justify-between">
-          <p>{t('umami.sub_title')} </p>
-          <ComboBoxFilter />
-        </div>
+        <p>{t('umami.sub_title')}</p>
       </SectionSubHeading>
 
       {error ? (
